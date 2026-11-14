@@ -39,3 +39,6 @@ evidencias/       capturas de los casos manuales
 
 ## Notas
 Cada corrida crea un usuario con login único, porque el sitio es público y compartido.
+
+## Carpeta de Drive con los entregables
+https://drive.google.com/drive/folders/1DWTgaxM64FPoX3KQ5sig4mzDMBB65FeE?usp=sharing

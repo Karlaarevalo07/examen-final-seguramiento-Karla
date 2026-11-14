@@ -14,7 +14,7 @@ export class ModelPage {
     this.voteConfirmation = page.getByText(/Thank you for your vote/i);
   }
 
-  // Lee el número de votos que muestra la ficha del modelo (texto "Votes: N")
+  // Lee el número de votos que muestra la ficha del modelo 
   async leerVotos(): Promise<number> {
     const texto = await this.page.getByText(/Votes:/i).first().textContent();
     return Number((texto ?? '').replace(/\D/g, ''));
